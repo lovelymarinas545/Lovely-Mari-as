@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taste of Seoul DIY Ramyeon</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d64545;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+    }
+
+    .ramen-item {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .ramen-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .ramen-item p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .ramen-item strong {
+      font-size: 1.3em;
+      display: block;
+      margin-bottom: 10px;
+      color: #b02e0c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Taste of Seoul DIY Ramyeon</h1>
+
+    <div class="ramen-item">
+      <img src="https://i.imgur.com/rOdaCwO.jpeg" alt="Mongolian noodles with ground beef" />
+      <p><strong>Mongolian Noodles with Ground Beef</strong>
+        Deliciously savory Mongolian noodles with ground beef — a perfect blend of flavors in every bite!
+      </p>
+    </div>
+
+    <div class="ramen-item">
+      <img src="https://i.imgur.com/urQZ1TY.jpeg" alt="Cheese ramen with American cheese" />
+      <p><strong>Cheese Ramen with American Cheese</strong>
+        Cheese so good, it’s the American dream come true.
+      </p>
+    </div>
+
+    <div class="ramen-item">
+      <img src="https://i.imgur.com/ZZSeNTv.jpeg" alt="Spicy ramen" />
+      <p><strong>Spicy Ramen</strong>
+        Our ramen is deliciously spicy, perfect for cold weather. One bite and you'll forget all your worries!
+      </p>
+    </div>
+  </div>
+</body>
+</html>
+
